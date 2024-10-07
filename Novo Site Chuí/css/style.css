@@ -1,0 +1,74 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(47, 199, 245);
+    justify-content: center;
+}
+header{
+    background:  rgb(47, 130, 255);;
+    color: rgb(23, 27, 27);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 12vh;
+    width: 100%;
+}
+.footer p{
+    color: white;
+    text-align: left; 
+}
+
+#menu-h {
+    list-style: inherit;
+    padding: 0;
+    background-color: rgb(47, 130, 255);
+}
+
+#menu-h li{ 
+    display: inline-block;
+
+}
+
+#menu-h li a {
+    color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+    padding: 10px;
+}
+
+.post{
+    width: 660px;
+    background-color: #FFF;
+    padding: 20px;
+    float: left;
+}
+
+.redes-socias p{
+    text-align: center;
+    font-size: 20px;
+    padding: 2px;
+    margin: 5px;
+    height: 40px;
+}
+
+.redes-socias{
+    align-items: center;
+}
+.redes-socias a i{
+    font-size: 30px;
+    margin: 3px;
+    line-height: 55px;
+    height: 55px;
+    border: 1px solid transparent;
+    text-align: center;
+    box-shadow: 2px 3px 3px #4c3333;
+}
+
+
